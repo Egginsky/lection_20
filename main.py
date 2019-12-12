@@ -4,10 +4,10 @@ from flask import Flask, render_template, request, redirect, url_for, make_respo
 from requests_oauthlib import OAuth2Session
 import os
 
-try:
-    import secrets
-except ImportError as e:
-    pass
+# try:
+#     import secrets
+# except ImportError as e:
+#     pass
 
 app = Flask(__name__)
 
